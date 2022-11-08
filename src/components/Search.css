@@ -1,0 +1,113 @@
+input[type="text"] {
+  font-size: 1em;
+  border: transparent;
+  padding-left: 50px;
+  background-color: transparent;
+  color: white;
+}
+input::placeholder {
+  font-size: 1em;
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+.city-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  text-align: left;
+}
+.search-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34495e;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background: cover;
+}
+.error-message {
+  color: white;
+}
+.buttons {
+  display: none;
+  cursor: pointer;
+}
+.btns {
+  gap: 2em;
+  display: flex;
+}
+button {
+  width: 100px;
+  height: 30px;
+  color: #2c3e50;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns-background {
+  background-color: #f1c40f;
+  color: white;
+}
+button:focus {
+  outline: none;
+}
+
+.fa-magnifying-glass {
+  color: white;
+  padding-left: 10px;
+}
+.search-icon {
+  display: flex;
+}
+.fa-location-dot {
+  color: #f1c40f;
+  cursor: pointer;
+  font-size: 1.3em;
+}
+@media screen and (min-width: 768px) {
+  .btns {
+    display: none;
+  }
+  .buttons {
+    display: flex;
+    gap: 2em;
+    color: white;
+    font-size: large;
+  }
+  .search-container {
+    display: flex;
+    justify-content: left;
+  }
+  .city-display {
+    margin-left: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  .error-message {
+    width: 100%;
+    margin-left: 75px;
+    font-size: 0.9em;
+  }
+  input[type="text"] {
+    font-size: 1.2em;
+  }
+  .border {
+    border-bottom: 2px solid #ffb142;
+  }
+  .btn:hover {
+    color: #f1c40f;
+  }
+  .fa-location-dot {
+    margin-right: 1em;
+
+    font-size: 1.3em;
+  }
+}

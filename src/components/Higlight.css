@@ -1,0 +1,49 @@
+.higlight-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+.temp-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #678e3e;
+}
+.higlight-title {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.degree {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  color: #d35400;
+  font-size: 1.2em;
+}
+.container-info {
+  gap: 4em;
+  display: flex;
+  flex-direction: column;
+  color: #636e72;
+}
+h1 {
+  color: #38484e;
+}
+.km {
+  color: #636e72;
+  font-size: 1em;
+}
+.humidity-level {
+  font-size: 1em;
+  margin-top: 10px;
+}
+i {
+  color: #678e3e;
+}
+.km {
+  color: #d35400;
+}
