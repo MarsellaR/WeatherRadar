@@ -1,16 +1,20 @@
 sup {
-  font-size: 0.4em;
-  margin-left: 5px;
+  font-size: 0.3em;
   background-color: #d35400;
   border-radius: 15px;
   color: white;
   font-weight: bold;
   border: transparent;
   padding: 5px;
+  height: fit-content;
+  margin-left: 4px;
 }
 .city-name {
-  font-size: 2em;
-  text-align: left;
+  font-size: 1.8em;
+  text-align: center;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
 }
 .temprature {
   font-size: 3em;
@@ -39,11 +43,13 @@ sup {
 .weather-card {
   display: flex;
   flex-direction: column;
+
   gap: 1em;
   padding: 50px;
   border-radius: 10px;
   color: #38484e;
   background-color: white;
+  align-items: center;
 }
 img {
   width: 100%;
@@ -53,23 +59,20 @@ img {
   width: 150px;
   height: 150px;
 }
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @media screen and (min-width: 768px) {
   .weather-card {
     width: 30%;
+    gap: 30px;
   }
   .localDateAndTime {
     flex-direction: column;
     gap: 5px;
-  }
-  .city-name {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1020px) {
-  .city-name {
-    display: flex;
-    justify-content: left;
+    justify-content: center;
+    text-align: center;
   }
 }
