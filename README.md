@@ -2,6 +2,9 @@
 
 A weather browsing application done with React, using the OpenWeatherMap API.
 
+Features:
+- Type the name of city whose weather has to be known or allow location access to check weather of present location.
+- Displays the present weather conditions (Temperature, Humidity, Wind) along with forecasts for the future.
 
 ## Available Scripts
 
