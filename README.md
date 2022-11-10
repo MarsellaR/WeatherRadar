@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A weather browsing application using the OpenWeatherMap API and React
+
 
 ## Available Scripts
 
