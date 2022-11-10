@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-A weather browsing application using the OpenWeatherMap API and React
+A weather browsing application done with React, using the OpenWeatherMap API.
 
 
 ## Available Scripts
